@@ -1,6 +1,22 @@
-# Vue 3 + Vite
+# Landing Page
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Landing Page para promocionar un producto o servicio, información del producto relevante, facil de entender y destacable para aumentar la tasa de conversión.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
-# landing-page
+## Historias de usuario
+
+Utilice las siguientes historias de usuario para desarrollar esta aplicación
+
+- El usuario puede `ver` en la página una o más imágenes del producto
+- El usuario puede `ver` una lista con todas las características del producto
+- El usuario puede `ver` cómo este producto mejorará la vida del comprador. ¿Por qué debería comprarlo?
+- El usuario puede `ver` una sección de contacto (un texto con el correo electrónico)
+
+## Caracteristicas adicionales:
+- El usuario puede `ver` una sección de preguntas frecuentes.
+- El usuario puede `ponerse` en contacto con los miembros del personal a través de un formulario de contacto.
+- El usuario puede `registrarse` para recibir notificaciones sobre el producto.
+- El usuario puede `comprar` el producto.
+
+## Enlace
+
+https://landing-page-three-sigma-64.vercel.app/
