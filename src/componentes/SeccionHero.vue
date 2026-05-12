@@ -4,7 +4,8 @@
       <h1>La Suculenta Perfecta para tu Espacio</h1>
       <p>Belleza natural, cuidado mínimo. Transforma tu hogar con la elegancia de la Echeveria.</p>
       <div class="actions">
-        <a href="#compra" class="btn-primary">Quiero una</a>
+        <router-link to="/productos" class="btn-primary">Ver Productos</router-link>
+        <a href="#compra" class="btn-secondary">Saber más</a>
       </div>
     </div>
     <div class="hero-image">
@@ -34,15 +35,33 @@ p {
   margin-bottom: 2rem;
 }
 
-.btn-primary {
+.actions {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.btn-primary, .btn-secondary {
   text-decoration: none;
   display: inline-block;
   padding: 1.2rem 2.5rem;
   border-radius: 50px;
-  background-color: var(--primary-green);
-  color: white;
   font-weight: 700;
   transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background-color: var(--primary-green);
+  color: white;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: var(--primary-green);
+  border: 2px solid var(--primary-green);
+}
+
+.btn-secondary:hover {
+  background-color: var(--light-green);
 }
 
 .img-suculenta {
